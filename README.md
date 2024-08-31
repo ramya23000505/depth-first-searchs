@@ -1,7 +1,6 @@
 <h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3> Date: </h3>
 <h3>Name: Ramya R</h3>
-<h3>Register Number: 212223230169    </h3>
+<h3>Register Number:212223230169 </h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -45,9 +44,8 @@ Visit node 3
 Visit node 3
 
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
-<hr>
+
 <h3>Algorithm:</h3>
-<hr>
 <B><ol>
  <li>Construct a Graph with Nodes and Edges</li>
  <li>Depth First Search Uses Stack and Recursion</li>
@@ -55,9 +53,9 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>Find its Successors Or neighbors and Check whether the node is visited or not</li>
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
-<hr>
-<h3>  Program </h3>
-<hr>
+
+<h3>Program:</h3>
+
 ```
 from collections import deque
 from collections import defaultdict
@@ -83,6 +81,7 @@ path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
 ```
+
 <hr>
 <h3>Sample Input</h3>
 <hr>
@@ -100,6 +99,9 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
+
+<hr>
+
 <hr>
 <h3>Sample Input</h3>
 <hr>
@@ -118,3 +120,4 @@ F H <BR>
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
+
