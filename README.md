@@ -45,7 +45,7 @@ Visit node 3
 Visit node 3
 
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
-
+<hr>
 <h3>Algorithm:</h3>
 <hr>
 <B><ol>
@@ -121,4 +121,3 @@ F H <BR>
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
-<hr>
