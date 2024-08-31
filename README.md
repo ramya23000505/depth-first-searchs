@@ -43,7 +43,7 @@ Step 6: Now, Node 3 at the top of the stack, so visit node 3 and pop it from the
 
 Visit node 3
 Visit node 3
-
+<hr>
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
 <hr>
 <h3>Algorithm:</h3>
@@ -100,9 +100,6 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
-
-<hr>
-
 <hr>
 <h3>Sample Input</h3>
 <hr>
